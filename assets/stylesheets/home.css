@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,pre,blockquote{margin:0px;padding:0px;}
+body{font:12px/1.7 \5b8b\4f53, Arial, sans-serif;background:url(../images/bj.png) scroll #eee;color:#333;font-family: "Microsoft Yahei"; font-size:12px; text-align:center;}
+
+ul,ol,li,form, dl {list-style: none;}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block; zoom:1}
+.clear{clear:both;height:0;font:0/0 Arial;visibility:hidden;}
+.content_center{width:980px;margin:0 auto;text-align:left;}
+
+header{height:100px;margin-top:80px;}
+.header-content h1{font-size: 28px;letter-spacing: 5px;color: #000;}
+.header-content p{letter-spacing: 4px;font-size: 13px;margin: 5px 0px;height: 20px}

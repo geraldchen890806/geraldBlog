@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleHolder" runat="server" /></title>
+    <link href="<%: Url.Content("~/assets/stylesheets/home.css") %>" rel="stylesheet" type="text/css" />
+    <script src="<%: Url.Content("~/lib/jquery.js") %>" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="content_center">
+           <div class="header-content">
+	          <h1>陈佳人</h1>
+	          <p>人生是一场独自修行的道路!</p>
+	        </div>
+        </div>
+    </header>
+    <div class="container content_center">
+        <asp:ContentPlaceHolder ID="ContentHolder" runat="server" />
+    </div>
+    <footer></footer>
+    <asp:ContentPlaceHolder ID="ScriptHolder" runat="server" />
+</body>
+</html>
