@@ -1,6 +1,5 @@
-﻿@charset "utf-8";
-body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,pre,blockquote{margin:0px;padding:0px;}
-body{font:12px/1.7 \5b8b\4f53, Arial, sans-serif;background:url(../images/bj.png) scroll #eee;color:#333;font-family: "Microsoft Yahei"; font-size:12px; text-align:center;}
+﻿body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,pre,blockquote{margin:0px;padding:0px;}
+body{font:16px/1.7 \5b8b\4f53, Arial, sans-serif;background:url(../images/bj.png) scroll #eee;color:#333;font-family: "Microsoft Yahei"; text-align:center;}
 
 ul,ol,li,form, dl {list-style: none;}
 .clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
@@ -10,5 +9,13 @@ ul,ol,li,form, dl {list-style: none;}
 .content_center{width:980px;margin:0 auto;text-align:left;}
 
 header{height:100px;margin-top:80px;}
-.header-content h1{font-size: 28px;letter-spacing: 5px;color: #000;}
-.header-content p{letter-spacing: 4px;font-size: 13px;margin: 5px 0px;height: 20px}
+.header_content h1{font-size: 28px;letter-spacing: 5px;color: #000;}
+.header_content p{letter-spacing: 4px;font-size: 13px;margin: 5px 0px;height: 20px}
+
+.post_main{background: none repeat scroll 0% 0% #FFF; padding:10px;}
+.post{padding-bottom: 5px !important;margin-bottom: 20px;box-shadow: 0px 0px 5px 2px #CCC}
+.post h2{display: block;margin-top: 10px;border-width: 1px;border-style: solid;border-color: #FFF #CCC #CCC #FFF;padding: 8px;font-size: 30px;font-family: "Microsoft YaHei",Verdana,"BitStream vera Sans";background: none repeat scroll 0% 0% #EEE;}
+.post .info{padding: 5px;border-left: 1px solid #EEE;border-right: 1px solid #EEE;}
+.post .date{font-size:16px;}
+.post .author{font-size:16px;color: #2970A6;text-decoration: none}
+.post .content{padding: 8px;line-height: 1.7;font-weight: 400;overflow: hidden;border-left: 1px solid #EEE;border-right: 1px solid #EEE;background: none repeat scroll 0% 0% #FFF;}

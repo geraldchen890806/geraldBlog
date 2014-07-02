@@ -2,6 +2,7 @@ D:\work\geraldBlog\geraldBlog\bin\geraldBlog.dll
 D:\work\geraldBlog\geraldBlog\bin\geraldBlog.pdb
 D:\work\geraldBlog\geraldBlog\bin\EntityFramework.dll
 D:\work\geraldBlog\geraldBlog\bin\EntityFramework.xml
-D:\work\geraldBlog\geraldBlog\obj\Debug\geraldBlog.csprojResolveAssemblyReference.cache
 D:\work\geraldBlog\geraldBlog\obj\Debug\geraldBlog.dll
 D:\work\geraldBlog\geraldBlog\obj\Debug\geraldBlog.pdb
+D:\work\geraldBlog\geraldBlog\bin\System.Web.Mvc.dll
+D:\work\geraldBlog\geraldBlog\bin\System.Web.Mvc.xml
