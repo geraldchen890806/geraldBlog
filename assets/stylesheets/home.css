@@ -12,10 +12,16 @@ header{height:100px;margin-top:80px;}
 .header_content h1{font-size: 28px;letter-spacing: 5px;color: #000;}
 .header_content p{letter-spacing: 4px;font-size: 13px;margin: 5px 0px;height: 20px}
 
-.post_main{background: none repeat scroll 0% 0% #FFF; padding:10px;}
-.post{padding-bottom: 5px !important;margin-bottom: 20px;box-shadow: 0px 0px 5px 2px #CCC}
+.main{background: none repeat scroll 0% 0% #FFF; padding:10px;}
+.action{float:right;}
+.post{padding: 5px;margin-bottom: 20px;box-shadow: 0px 0px 5px 2px #CCC}
 .post h2{display: block;margin-top: 10px;border-width: 1px;border-style: solid;border-color: #FFF #CCC #CCC #FFF;padding: 8px;font-size: 30px;font-family: "Microsoft YaHei",Verdana,"BitStream vera Sans";background: none repeat scroll 0% 0% #EEE;}
-.post .info{padding: 5px;border-left: 1px solid #EEE;border-right: 1px solid #EEE;}
-.post .date{font-size:16px;}
-.post .author{font-size:16px;color: #2970A6;text-decoration: none}
-.post .content{padding: 8px;line-height: 1.7;font-weight: 400;overflow: hidden;border-left: 1px solid #EEE;border-right: 1px solid #EEE;background: none repeat scroll 0% 0% #FFF;}
+.post .info{padding: 5px;}
+.post .date{font-size: 16px;}
+.post .author{font-size: 16px;color: #2970A6;text-decoration: none}
+.post .title{padding: 8px;}
+.post .content{padding: 8px;line-height: 1.7;font-weight: 400;overflow: hidden;background: none repeat scroll 0% 0% #FFF;}
+.create label{width: 100px;display: inline-block;}
+.create .title input{width: 600px;}
+.create textarea{width: 600px;height: 200px;}
+.create .submit input{padding: 5px 20px 0;}

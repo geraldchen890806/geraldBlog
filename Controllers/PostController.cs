@@ -42,16 +42,19 @@ namespace geraldBlog.Controllers
         // POST: /Blog/Create
 
         [HttpPost]
-        public ActionResult Create(Post blog)
+        public ActionResult Save()
         {
-            if (ModelState.IsValid)
+            Post post = new Post()
             {
-                db.Posts.Add(blog);
-                db.SaveChanges();
-                return RedirectToAction("Index");  
-            }
-
-            return View(blog);
+                UserID = 1,
+                Title = Request.Form["title"],
+                Content = Request.Form["content"],
+                AddTime = DateTime.Now,
+                UpdateTime = DateTime.Now
+            };
+            db.Posts.Add(post);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
         
         //

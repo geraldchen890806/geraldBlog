@@ -12,7 +12,7 @@
     <fieldset>
         <legend>Blog</legend>
 
-        <%: Html.HiddenFor(model => model.BlogID) %>
+        <%: Html.HiddenFor(model => model.PostID) %>
 
         <div class="editor-label">
             <%: Html.LabelFor(model => model.UserID) %>
